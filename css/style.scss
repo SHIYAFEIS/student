@@ -4,6 +4,7 @@ body{
 .wrapper{
   margin:0;
   padding:0;
+  overflow: hidden;
 }
 .ww{
   padding:0;
@@ -69,6 +70,7 @@ body{
   display: inline-block;
   width:428px;
   height:188px;
+  overflow:auto;
   background: #fcfcfe;
   border:1px solid #ccc;
   .h4{
@@ -90,24 +92,23 @@ body{
       text-align: center;
     }
   }
-  p{
-    padding:0 10px;
-    a{
-      display: inline-block;
-      border:1px solid #ccc;
-      margin:10px;
-      padding:5px;
-      font-size: 14px;
-    }
-    .jia{
-      border:1px solid #0097cf;
-      color:#0097cf;
-    }
+  .jia{
+    border:1px solid #0097cf;
+    color:#0097cf;
   }
 }
 .jv{
+  width:100%;
+  text-align: center;
   a{
+    display: inline-block;
+    width:20%;
+    height:30px;
+    padding:5px 10px;
+    margin:5px;
+    text-align: center;
     position: relative;
+    border:1px solid #ccc;
     .gb{
       width:14px;
       height:14px;
